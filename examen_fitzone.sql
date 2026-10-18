@@ -15,3 +15,9 @@ INSERT INTO socios (id_socio, nombres, apellidos, edad, fecha_registro, activo) 
 (3, 'Luis', 'Perez', 34, '2026-03-20', false),
 (4, 'Maria', 'Torres', 12, '2026-05-05', true),
 (5, 'Jose', 'Ramirez', 45, '2026-08-30', true);
+
+SELECT nombres, apellidos, edad FROM socios WHERE activo = true AND edad > 18;
+ 
+SELECT * FROM socios WHERE fecha_registro > '2026-02-01';
+ 
+SELECT * FROM socios ORDER BY edad DESC;
