@@ -1,0 +1,1 @@
+CREATE DATABASE fitzone_api;
